@@ -10,7 +10,7 @@ class Author
   end
 
 def post(post)
-
+binding.pry
   @posts << post
 end
 
