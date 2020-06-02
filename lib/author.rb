@@ -1,3 +1,4 @@
+require 'pry'
 class Author
 
   attr_accessor :name, :posts
@@ -9,7 +10,7 @@ class Author
   end
 
 def post(post)
-  post = Post.new
+  
   @posts << post
 end
 
