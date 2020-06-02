@@ -9,8 +9,10 @@ class Author
   end
 
 def post(post)
-  @posts <<post
+  post = Post.new
+  @posts << post
 end
+
 
 
 end
