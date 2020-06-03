@@ -9,8 +9,8 @@ class Author
     @posts = []
   end
 
-def post(post)
-binding.pry
+def add_post(post)
+
   @posts << post
 end
 
