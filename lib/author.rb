@@ -13,6 +13,10 @@ class Author
     @posts << post
   end
 
+  def posts
+    @posts
+  end
+
 
 
 end
